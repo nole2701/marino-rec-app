@@ -1,5 +1,5 @@
 import './App.css';
-import Floor1 from './map-floor1';
+import Floor2 from './map-floor2';
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 
@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <Routes>
           <Route index
-                element={<Floor1/>}/>
+                element={<Floor2/>}/>
         </Routes>
       </div>
     </BrowserRouter>
